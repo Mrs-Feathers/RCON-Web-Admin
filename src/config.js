@@ -10,7 +10,8 @@ var config = {
     "host": null,
     "websocketUrlSsl": null,
     "websocketUrl": null,
-    "port": 4326
+    "port": 80
+        //4326
 };
 
 if (process.env.RWA_WEBSOCKET_URL) {
